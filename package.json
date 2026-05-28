@@ -1,0 +1,21 @@
+{
+  "name": "discord-otel-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@opentelemetry/exporter-logs-otlp-http": "^0.218.0",
+    "@opentelemetry/resources": "^2.7.1",
+    "@opentelemetry/sdk-logs": "^0.218.0",
+    "@opentelemetry/semantic-conventions": "^1.41.1",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  }
+}
